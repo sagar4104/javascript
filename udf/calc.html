@@ -1,0 +1,32 @@
+    <!---- calculate CALC  Using Add, Sub, Mul, Div function ------>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    
+    <body>
+        <script>
+            let a, b;
+            a = parseInt(prompt("Enter value of a : "));
+            b = parseInt(prompt("Enter value of b : "));
+    
+            let add = (p, q) => p + q
+            let sub = (p, q) => p - q
+            let mult = (p, q) => p * q
+            let divi = (p, q) => p / q
+    
+            document.write("a = ", a);
+            document.write("<br>b  = ", b);
+    
+            document.write("<br>Addition is a+b = ", add(a, b));
+            document.write("<br>Subsraction is a-b = ", sub(a, b));
+            document.write("<br>Multipication is a*b = ", mult(a, b));
+            document.write("<br>Divition is a/b = ", divi(a, b));
+        </script>
+    </body>
+    
+    </html>

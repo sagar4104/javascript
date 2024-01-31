@@ -1,0 +1,42 @@
+ <!----- find Area using rectanlge, Triangle, circle functions ------->
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ 
+ <body>
+     <script>
+         const pi = 3.14;
+         let r;
+         r = parseInt(prompt("Enter value of R :"));
+ 
+         let cricle = (r) => pi * r * r;
+         document.write("Area of Cricle : ", cricle(r));
+ 
+         // triangle
+ 
+         let hight, width;
+         hight = parseInt(prompt("Enter hight : "));
+         width = parseInt(prompt("Enter width : "));
+ 
+         let Triangle = (h, w) => 0.5 * h * w;
+         document.write("<br>Area of Trianle : ", Trianle(hight, width));
+         
+         // rectengle
+ 
+         let breadth, length;
+         hight = parseInt(prompt("Enter breadth : "));
+         width = parseInt(prompt("Enter length : "));
+ 
+         let rectangle = (b, l) => b * l;
+         document.write("<br>Area of Rectangle : ", rectangle(hight, width));
+ 
+     </script>
+ 
+ </body>
+ 
+ </html>
